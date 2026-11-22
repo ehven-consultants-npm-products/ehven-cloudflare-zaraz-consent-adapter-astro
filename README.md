@@ -25,6 +25,18 @@ when no configuration element exists. Dispose it through the returned `destroy()
 when the host removes the page. This initial adapter targets full-page navigation;
 client-side routing needs an explicitly tested host lifecycle. Do not place whole
 native tool settings or secrets in component props. Core remains a peer dependency.
-Astro version/build support remains to be verified against the real consumer.
+Astro 7.3.8 is the initial integration target. Node fixture tests do not establish
+a complete host build, browser compatibility or native vendor acceptance; those
+checks must run against the installed packages in the intended host.
 
 Support continued development through [Ehven Consultants](https://ehven.com/contact/).
+
+After publication, install into the host project:
+
+```sh
+npm install @ehven/cloudflare-zaraz-consent-adapter-astro @ehven/cloudflare-zaraz-consent-controller-core
+```
+
+Requires Astro `^7.3.8` and Node.js 24+.
+Report reproducible issues through the repository issue tracker. Keep cookie values,
+credentials, identities and private form contents out of reports. Support is best effort.

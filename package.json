@@ -28,7 +28,7 @@
     "url": "git+https://github.com/ehven-consultants-npm-products/ehven-cloudflare-zaraz-consent-adapter-astro.git"
   },
   "peerDependencies": {
-    "@ehven/cloudflare-zaraz-consent-controller-core": ">=0.1.0 <1",
+    "@ehven/cloudflare-zaraz-consent-controller-core": "^0.1.0",
     "astro": "^7.3.8"
   },
   "description": "Explicit Astro rendering and browser bindings for the Zaraz consent controller.",
