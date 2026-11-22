@@ -1,0 +1,6 @@
+---
+import type {BrowserOptions} from '@ehven/cloudflare-zaraz-consent-controller-core';
+interface Props { options: BrowserOptions; }
+const {options} = Astro.props;
+---
+<meta data-zaraz-consent-options data-options={JSON.stringify(options)} />
