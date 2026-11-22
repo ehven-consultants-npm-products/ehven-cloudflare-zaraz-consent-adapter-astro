@@ -26,3 +26,5 @@ when the host removes the page. This initial adapter targets full-page navigatio
 client-side routing needs an explicitly tested host lifecycle. Do not place whole
 native tool settings or secrets in component props. Core remains a peer dependency.
 Astro version/build support remains to be verified against the real consumer.
+
+Support continued development through [Ehven Consultants](https://ehven.com/contact/).

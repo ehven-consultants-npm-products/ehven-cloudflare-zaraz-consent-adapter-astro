@@ -8,9 +8,10 @@
   },
   "sideEffects": false,
   "files": [
-    "src/*.mjs",
-    "src/*.astro",
-    "types/*.d.ts"
+    "src/Controller.astro",
+    "src/index.mjs",
+    "types/index.d.ts",
+    "CHANGELOG.md"
   ],
   "exports": {
     ".": {
@@ -29,5 +30,24 @@
   "peerDependencies": {
     "@ehven/cloudflare-zaraz-consent-controller-core": ">=0.1.0 <1",
     "astro": "^7.3.8"
-  }
+  },
+  "description": "Explicit Astro rendering and browser bindings for the Zaraz consent controller.",
+  "author": "Gilad Ehven",
+  "homepage": "https://github.com/ehven-consultants-npm-products/ehven-cloudflare-zaraz-consent-adapter-astro#readme",
+  "bugs": {
+    "url": "https://github.com/ehven-consultants-npm-products/ehven-cloudflare-zaraz-consent-adapter-astro/issues"
+  },
+  "funding": {
+    "type": "custom",
+    "url": "https://ehven.com/contact/"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cloudflare",
+    "zaraz",
+    "consent",
+    "astro"
+  ]
 }
