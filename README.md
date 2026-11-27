@@ -1,6 +1,5 @@
 # Astro adapter for the Zaraz consent controller
 
-Development candidate for `@ehven/cloudflare-zaraz-consent-adapter-astro`.
 `Controller.astro` renders only a public browser-options projection. It makes no
 network requests and imports no provider. The application owns the startup script:
 
@@ -31,7 +30,7 @@ checks must run against the installed packages in the intended host.
 
 Support continued development through [Ehven Consultants](https://ehven.com/contact/).
 
-After publication, install into the host project:
+Install the package in the host project:
 
 ```sh
 npm install @ehven/cloudflare-zaraz-consent-adapter-astro @ehven/cloudflare-zaraz-consent-controller-core
